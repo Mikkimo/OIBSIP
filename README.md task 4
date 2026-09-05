@@ -1,0 +1,98 @@
+# Online Examination System
+
+## Objective
+
+The Online Examination System is a Java Swing-based GUI application that allows students to log in, update their profile, attend a multiple-choice examination, and submit the exam within a specified time limit.
+
+## Technologies Used
+
+* Java
+* Java Swing
+* AWT
+* Eclipse IDE
+
+## Features
+
+* Student Login System
+* Username and Password Validation
+* Profile Update
+* Multiple-Choice Questions (MCQs)
+* Timer for the Examination
+* Automatic Submission when Time Expires
+* Next and Previous Question Navigation
+* Answer Selection
+* Score Calculation
+* Result Display
+* Basic Input Validation
+
+## How the System Works
+
+1. Student enters username and password.
+2. After successful login, the examination screen is displayed.
+3. Student can update their display name in the profile section.
+4. Multiple-choice questions are displayed one by one.
+5. Student selects an answer for each question.
+6. The timer keeps track of the examination time.
+7. The exam is automatically submitted when the timer reaches zero.
+8. The final score and result are displayed.
+
+## Project Structure
+
+```text
+OnlineExaminationSystem
+│
+├── src
+│   └── onlineexamination
+│       ├── Login.java
+│       ├── Exam.java
+│       ├── Profile.java
+│       └── Result.java
+│
+└── README.md
+```
+
+## Requirements
+
+* Java JDK 8 or above
+* Eclipse IDE
+* Windows/Linux/macOS
+
+## How to Run
+
+1. Open Eclipse IDE.
+2. Import or open the Online Examination System project.
+3. Open the main Java class.
+4. Right-click the class.
+5. Select **Run As → Java Application**.
+6. Enter the login credentials.
+7. Start the examination.
+
+## Expected Output
+
+The application displays:
+
+* Login screen
+* Examination interface
+* Multiple-choice questions
+* Countdown timer
+* Profile update option
+* Final examination result
+
+## Learning Outcomes
+
+Through this project, the following concepts are practiced:
+
+* Java programming
+* Object-Oriented Programming
+* Java Swing GUI development
+* Event Handling
+* Timers
+* User Input Validation
+* Conditional Statements
+* Arrays and Methods
+
+## Author
+
+OIBSIP Java Internship
+
+
